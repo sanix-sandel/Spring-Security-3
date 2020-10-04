@@ -9,4 +9,14 @@ public class HomeController {
     public String home(){
         return "home";
     }
+
+    @RequestMapping("/login")
+    public String loginPage(){
+        return "login";
+    }
+
+    @RequestMapping
+    public String logoutPage(){
+        return "logout";
+    }
 }
